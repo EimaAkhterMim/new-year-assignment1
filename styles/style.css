@@ -63,28 +63,29 @@ header .banner .banner-text h2 {
 /* header section styles end  */
 
 /* main section styles */
- main section  {
+main section {
     margin-bottom: 120px;
- }
+}
 
- /* 65% off section styles */
- 
- .off-content h2{
+/* 65% off section styles */
+
+.off-content h2 {
     color: #F00;
-text-align: center;
-font-family: "Inter", sans-serif;
-font-size: 72px;
-font-weight: 700;
-margin-bottom: 48px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 48px;
 
 }
-.off-content h4{
+
+.off-content h4 {
     color: #F00;
-text-align: center;
-font-family: "Inter", sans-serif;
-font-size: 20px;
-font-weight: 500;
-margin-bottom: 16px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
 
 
@@ -93,21 +94,77 @@ margin-bottom: 16px;
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: 40px;
-    
+
     font-weight: 700;
     margin-bottom: 48px;
-    
+
 }
-.off-img{
+
+.off-img {
     max-width: 700px;
     height: 450px;
     padding: 10px;
     margin: auto;
- 
-   
-   
+
+
+
 }
-.off-img img{
+
+.off-img img {
     width: 100%;
-    
+
+}
+
+/* welcome section styles */
+
+.welcome-text {
+    background-image: url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.welcome-text .party {
+    width: 53%;
+    max-width: 570px;
+    padding: 125px;
+}
+
+.welcome-text .party h2 {
+
+    color: #FFF;
+    font-family: "Merriweather", serif;
+    font-size: 52px;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.welcome-text .party p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.welcome-text .party button {
+    color: white;
+    background: violet;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.welcome-text .party-img {
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+.welcome-text .party-img img{
+    width: 100%;
 }
