@@ -171,6 +171,89 @@ main section {
     width: 100%;
 }
 
+
+/* coming soon section styles */
+
+.coming .soon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coming .best-offer{
+    width: 30%;
+    max-width: 328px;
+}
+
+.coming .best-offer h5 {
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:16px;
+}
+
+.coming .best-offer h3 {
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom:20px;
+}
+
+.coming .best-offer p {
+    color: #07021199;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.coming .coming-img {
+    width: 35%;
+    max-width: 377px;
+    border: 15px solid red;
+    border-radius: 300px 300px 300px 300px;
+    padding: 25px;
+}
+
+.coming .coming-img img {
+    width: 100%;
+}
+
+.coming .coming-text{
+    width: 20%;
+    max-width: 225px;
+}
+
+.coming .coming-text h3 {
+    color: #F00;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.coming .coming-text p {
+    color: #07021199;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.coming .coming-text .group {
+    width: 140px;
+    height: 140px;
+}
+.coming .coming-text .group{
+    width: 100%;
+}
+
+
+
+
+
+
 /* Awesome section styles */
 
 
@@ -320,16 +403,19 @@ footer .footer-text {
     align-items: center;
     margin-bottom: 20px;
 }
-footer .contact{
+
+footer .contact {
     display: flex;
     align-items: center;
 }
-footer .social-links{
+
+footer .social-links {
     display: flex;
     gap: 24px;
-  padding: 60px 500px;
+    padding: 60px 500px;
 }
-footer .copyright{
+
+footer .copyright {
     display: flex;
     justify-content: space-between;
     align-items: center;
